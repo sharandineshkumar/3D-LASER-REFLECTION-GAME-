@@ -1,4 +1,3 @@
-n
 # 🔮 3D Laser Reflection Puzzle Game
 An immersive, interactive 3D puzzle game built with React and Three.js where players strategically position and rotate mirrors to guide laser beams to target receivers.
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)
