@@ -11,7 +11,7 @@ function Receiver({ position, size }) {
     useFrame((state) => {
         const t = state.clock.elapsedTime;
 
-        // Rotate the target rings
+        
         if (ringRef.current) {
             ringRef.current.rotation.z = t * 0.5;
         }
