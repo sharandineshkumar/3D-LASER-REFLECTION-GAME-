@@ -16,13 +16,13 @@ function Receiver({ position, size }) {
             ringRef.current.rotation.z = t * 0.5;
         }
 
-        // Pulse the glow
+        
         if (glowRef.current) {
             const pulseIntensity = isHit ? 2 : 0.5;
             glowRef.current.material.emissiveIntensity = pulseIntensity + Math.sin(t * 4) * 0.3;
         }
 
-        // Subtle floating animation
+        
         if (meshRef.current) {
             meshRef.current.position.y = position[1] + Math.sin(t * 1.5) * 0.05;
         }
