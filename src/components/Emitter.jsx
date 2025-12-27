@@ -18,7 +18,7 @@ function Emitter({ position, direction, color }) {
         }
     });
 
-    // Calculate rotation to point in direction
+    
     const dir = new THREE.Vector3(...direction).normalize();
     const quaternion = new THREE.Quaternion();
     quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), dir);
