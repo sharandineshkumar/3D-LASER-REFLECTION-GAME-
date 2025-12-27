@@ -7,7 +7,7 @@ function WinOverlay({ level, moveCount, gameTime, onNextLevel, onReplay, hasNext
         return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     };
 
-    // Calculate star rating based on moves
+    
     const getStars = () => {
         if (moveCount <= 5) return 3;
         if (moveCount <= 10) return 2;
